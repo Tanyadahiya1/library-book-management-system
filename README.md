@@ -47,6 +47,66 @@ This project allows users to manage books, issue or return them, and maintain tr
 ## 🚀 How to Run
 
 ### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/library-book-management.git
-cd library-book-management
+
+### 2️⃣ Run the Program
+
+Make sure you have Python 3 installed. Then execute:
+
+python library_management.py
+
+
+--- 
+
+
+### 🖥️ Menu Options
+
+When you run the program, you’ll see this interactive menu:
+
+========== Library Book Management System ==========
+1. Add Book
+2. Delete Book
+3. Search Book
+4. Display All Books
+5. Issue Book
+6. Return Book
+7. Undo Last Transaction
+8. View Transactions
+9. Exit
+
+
+Follow on-screen prompts to perform actions.
+
+### 🧾 Example Workflow
+Enter your choice: 1
+Enter Book ID: 101
+Enter Book Title: Python Basics
+Enter Author Name: John Doe
+
+### ✅ Book 'Python Basics' added successfully!
+
+Enter your choice: 5
+Enter Book ID to Issue: 101
+
+📕 Book 'Python Basics' has been issued.
+
+Enter your choice: 7
+↩️ Undo successful: Book 'Python Basics' issue reverted.
+
+🧰 Technologies Used
+
+Python 3
+
+Object-Oriented Programming (OOP)
+
+Linked List & Stack Implementations
+
+🧑‍💻 Author
+
+taniya
+📧 singhtaniya153@gmail.com
+
+
+
+📄 License
+
+This project is licensed under the MIT License — feel free to use, modify, and distribute it.
